@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vista.crud.AlumnoCrudFormularioActivity">
+
+    <TextView
+        android:id="@+id/txtCrudRegistraSalaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/txt_crud_de_sala"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Número"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtCrudRegistraSalaNumero"
+        style="@style/Widget.AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:hint="@string/hint_numero"
+        android:maxLength="5"
+        android:padding="2dp"
+        app:drawableTint="@color/purple_700"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Piso" />
+
+    <Spinner
+        android:id="@+id/spnCrudRegistraSalaPiso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:minHeight="48dp"
+        android:entries="@array/txtPiso"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Capacidad" />
+
+    <EditText
+        android:id="@+id/txtCrudRegistraSalaCapacidad"
+        style="@style/Widget.AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:hint="@string/hint_capacidad"
+        android:maxLength="2"
+        android:padding="2dp"
+        app:drawableTint="@color/purple_700"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Recursos" />
+
+    <EditText
+        android:id="@+id/txtCrudRegistraSalaRecursos"
+        style="@style/Widget.AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:hint="@string/hint_recurso"
+        android:maxLength="40"
+        android:padding="2dp"
+        app:drawableTint="@color/purple_700"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Fecha Separación" />
+
+    <EditText
+        android:id="@+id/txtCrudRegistraSalaFechaSep"
+        style="@style/Widget.AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@android:drawable/ic_menu_month"
+        android:hint="@string/hint_fechareg"
+        android:maxLength="10"
+        android:padding="2dp"
+        app:drawableTint="@color/purple_700"/>
+
+    <TextView
+        android:id="@+id/txtCrudRegistraSalaTextoEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Estado" />
+
+    <Spinner
+        android:id="@+id/spnCrudRegistraSalaEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:minHeight="48dp"
+        android:entries="@array/txtEstado"
+        />
+
+    <Button
+        android:id="@+id/btnCrudSalaRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Registrar ✅" />
+
+    <Button
+        android:id="@+id/btnCrudSalaEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Eliminar ❌" />
+
+    <Button
+        android:id="@+id/btnCrudSalaRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:text="Regresar ⏪" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

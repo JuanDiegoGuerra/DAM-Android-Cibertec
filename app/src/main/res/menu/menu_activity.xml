@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/idInicio"  android:title="『────INICIO────』" >   </item>
+
+    <item android:id="@+id/idMantenimiento"  android:title="Registros" >
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/idMenuRegAlumno" android:title="@string/txt_menu_alumno" />
+            <item android:id="@+id/idMenuRegAutor" android:title="@string/txt_menu_autor" />
+            <item android:id="@+id/idMenuRegEditorial" android:title="@string/txt_menu_editorial" />
+            <item android:id="@+id/idMenuRegLibro" android:title="@string/txt_menu_libro" />
+            <item android:id="@+id/idMenuRegProveedor" android:title="@string/txt_menu_proveedor" />
+            <item android:id="@+id/idMenuRegRevista" android:title="@string/txt_menu_revista" />
+            <item android:id="@+id/idMenuRegSala" android:title="@string/txt_menu_sala" />
+            <item android:id="@+id/idMenuRegUsuario" android:title="@string/txt_menu_usuario" />
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/idConsulta"  android:title="Consultas" >
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/idMenuConsultaAlumno" android:title="@string/txt_menu_alumno" />
+            <item android:id="@+id/idMenuConsultaAutor" android:title="@string/txt_menu_autor" />
+            <item android:id="@+id/idMenuConsultaEditorial" android:title="@string/txt_menu_editorial" />
+            <item android:id="@+id/idMenuConsultaLibro" android:title="@string/txt_menu_libro" />
+            <item android:id="@+id/idMenuConsultaProveedor" android:title="@string/txt_menu_proveedor" />
+            <item android:id="@+id/idMenuConsultaRevista" android:title="@string/txt_menu_revista" />
+            <item android:id="@+id/idMenuConsultaSala" android:title="@string/txt_menu_sala" />
+            <item android:id="@+id/idMenuConsultaUsuario" android:title="@string/txt_menu_usuario" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/idCrud"  android:title="Mantenimiento" >
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/idMenuCrudAlumno" android:title="@string/txt_menu_alumno" />
+            <item android:id="@+id/idMenuCrudAutor" android:title="@string/txt_menu_autor" />
+            <item android:id="@+id/idMenuCrudEditorial" android:title="@string/txt_menu_editorial" />
+            <item android:id="@+id/idMenuCrudLibro" android:title="@string/txt_menu_libro" />
+            <item android:id="@+id/idMenuCrudProveedor" android:title="@string/txt_menu_proveedor" />
+            <item android:id="@+id/idMenuCrudRevista" android:title="@string/txt_menu_revista" />
+            <item android:id="@+id/idMenuCrudSala" android:title="@string/txt_menu_sala" />
+            <item android:id="@+id/idMenuCrudUsuario" android:title="@string/txt_menu_usuario" />
+        </menu>
+    </item>
+
+
+
+</menu>

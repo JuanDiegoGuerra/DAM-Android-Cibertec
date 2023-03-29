@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+
+    <ImageView
+        android:id="@+id/idSalaItemImg"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="9"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/idItemIdSala"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txt_idSala"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:text="@string/txt_NumSala"
+        android:id="@+id/idItemNumeroSala"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:text="@string/txt_RecursosSala"
+            android:id="@+id/idItemRecursoSala"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>

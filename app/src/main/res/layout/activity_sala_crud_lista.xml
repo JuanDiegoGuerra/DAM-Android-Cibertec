@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".vista.crud.SalaCrudListaActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/txt_crud_de_sala"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Número"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/txtCrudSalaNumero"
+        style="@style/Widget.AppTheme.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:hint="@string/hint_numero_consulta"
+        android:maxLength="5"
+        android:padding="5dp"
+        app:drawableTint="@color/purple_700"
+        />
+
+    <Button
+        android:id="@+id/btnCrudSalaFiltrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="🔎 Filtrar🔎" />
+
+    <Button
+        android:id="@+id/btnCrudSalaRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Registra 🆕" />
+
+    <ListView
+        android:id="@+id/lstCrudSala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
